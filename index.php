@@ -1,3 +1,5 @@
+<?php 
+
 session_start();
 // Begins session 
 if (!isset($_SESSION['count'])) {
@@ -8,3 +10,7 @@ if (!isset($_SESSION['count'])) {
     $_SESSION['count'] ++;
     // Increse 'count' by increments
 }
+
+echo $_SESSION['count'];
+
+?>
