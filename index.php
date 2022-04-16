@@ -8,7 +8,7 @@ if (!isset($_SESSION['count'])) {
     // Create variable and set 'count' to 0
 } else {
     $_SESSION['count'] ++;
-    // Increse 'count' by increments
+    // Increase 'count' by increments
 }
 
 echo $_SESSION['count'];
